@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiDeEstudo.Application\ApiDeEstudo.Application.csproj" />
+    <ProjectReference Include="..\ApiDeEstudo.Domain\ApiDeEstudo.Domain.csproj" />
+    <ProjectReference Include="..\ApiDeEstudo.Infra\ApiDeEstudo.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
